@@ -1,0 +1,14 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+:root{
+	--color-blue-1: #10107B;
+	--color-blue-2 : #7848F4; 
+	--color-grey-1 : #7E7E7E;
+	--color-white: #ffffff;
+	--color-white-2: rgba(22, 24, 26, 0.05);
+	--color-black: #000000;
+	--color-red: #c2002a;
+
+	--primary-font: 'Questrial', sans-serif;
+	
+}

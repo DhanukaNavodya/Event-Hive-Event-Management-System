@@ -1,0 +1,50 @@
+
+.inquiry-container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 40px 0px;
+	
+}
+.inquiry-container div form{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+.inquiry-title{
+	width: 700px;
+	padding: 15px 10px;
+	border: none;
+	border-radius: 5px;
+	font-family: var(--primary-font);
+	background-color: var(--color-white-2);
+	outline: none;
+	resize: none;
+	font-weight: bolder;
+	font-size: 18px;
+}
+.inquiry{
+	width: 700px;
+	height: 500px;
+	padding: 15px 10px;
+	border: none;
+	border-radius: 5px;
+	font-family: var(--primary-font);
+	background-color: var(--color-white-2);
+	outline: none;
+	resize: none;
+}
+.inquiry-submit-btn{
+	width: 200px;
+	padding: 15px 10px;
+	border: none;
+	border-radius: 5px;
+	font-family: var(--primary-font);
+	background-color: var(--color-blue-2);
+	outline: none;
+	resize: none;
+	color: var(--color-white);
+}

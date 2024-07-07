@@ -1,0 +1,53 @@
+@charset "ISO-8859-1";
+
+.upcoming-event{
+	width: 300px;
+	height: 300px;
+	margin: 15px 10px;
+	padding: 15px 5px;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	background-color: var(--color-white);
+	box-shadow: 0px -0.274791419506073px 2.7479140758514404px 0px rgba(0, 0, 0, 0.02), 0px -0.6949681043624878px 6.949680805206299px 0px rgba(0, 0, 0, 0.03), 0px -1.4176697731018066px 14.176697731018066px 0px rgba(0, 0, 0, 0.04), 0px -2.9201316833496094px 29.201316833496094px 0px rgba(0, 0, 0, 0.05), 0px -8px 80px 0px rgba(0, 0, 0, 0.07);
+}
+.upcoming-event.fade-in{         
+  	animation: fadeIn 1s ease-in-out forwards;
+}
+@keyframes fadeIn {
+	to{
+		transform: translateY(0); 
+    	opacity: 1; 
+	}
+	               
+}
+
+.upcoming-event a{
+	text-decoration: none;
+}
+.upcoming-events-event-image{
+	width: 280px;
+}
+.upcoming-event-name{
+	width: 287px;
+	margin: 15px 0px 0px 10px;
+	font-family: var(--primary-font);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	overflow: hidden;
+}
+.upcoming-event-date{
+	width: 287px;
+	margin: 16px 0px 0px 10px;
+	font-family: var(--primary-font);
+	overflow: hidden;
+}
+.upcoming-event-type{
+	width: 287px;
+	margin: 20px 0px 0px 10px;
+	font-family: var(--primary-font);
+	overflow: hidden;
+}
